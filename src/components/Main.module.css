@@ -1,0 +1,58 @@
+html,
+body,
+#root,
+#root>div {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+/** Scroll **/
+
+div#scroll-bar {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 9999px;
+    background-color: #AAAAAA;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.votersContainer {
+    padding: 40px;
+}
+
+.canditatesContainer {
+    padding: 40px;
+}
+
+ .headerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 100%;
+    height: 40px;
+ }
+
+.tableContainer {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 25px 0px;
+}

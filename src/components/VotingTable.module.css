@@ -1,0 +1,16 @@
+.table {
+    max-height: 250px;
+}
+
+.tableHead {
+    top: 0px;
+    position: sticky;
+    border-bottom: solid 1px black;
+}
+
+.headerCell {
+    font-weight: 700;
+    color: black;
+    border-bottom: solid 1px black;
+    padding: 10px 0px;
+}

@@ -1,0 +1,46 @@
+{
+  "voters": [
+    {
+      "id": "1",
+      "name": "Lily Clark",
+      "hasVoted": true
+    },
+    {
+      "id": "2",
+      "name": "Douglas Smith",
+      "hasVoted": false
+    },
+    {
+      "id": "3",
+      "name": "Deborah Richardson",
+      "hasVoted": false
+    },
+    {
+      "id": "4",
+      "name": "Nicholas Wilson",
+      "hasVoted": true
+    },
+    {
+      "id": "5",
+      "name": "James McGill",
+      "hasVoted": true
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "name": "Oscar White",
+      "votes": 0
+    },
+    {
+      "id": "2",
+      "name": "Heather Campbell",
+      "votes": 3
+    },
+    {
+      "id": "3",
+      "name": "Nicole Shaw",
+      "votes": 2
+    }
+  ]
+}
